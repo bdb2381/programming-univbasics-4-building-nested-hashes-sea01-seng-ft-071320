@@ -29,7 +29,7 @@ def monopoly_with_third_tier
   monopoly_hash_base = {
     :railroads => {
       :pieces => 4,
-        :rent_in_dollars => {},
+        :rent_in_dollars => {:one_piece_owned => 25},
         :names => {}
     }
    }
